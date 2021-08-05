@@ -1,0 +1,11 @@
+@import 'var';
+
+body{
+    color: $primary;
+}
+
+.form-group{
+    input{
+        width: 800px;
+    }
+}
