@@ -1,13 +1,13 @@
 class NewController{
 
 
-    // [GET] index
+    // [GET] /news
     index(req,res){
         console.log('ok')
         res.render('news')
     }
 
-    // [GET] index slug
+    // [GET] /news/:slug
     show(req,res){
         res.send('ok')
     }
